@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:title="User notification"
+        android:key="sync_settings">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="notif_toast"
+            android:summary="Show notif as Toast message"
+            android:title="Toast notif" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="notif_statis"
+            android:summary="Show notif as Statusbar message"
+            android:title="Statusbar notif" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

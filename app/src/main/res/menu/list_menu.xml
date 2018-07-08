@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/priprema_add_new_actor"
+        android:title="@string/fragment_detal_action_add"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/priprema_preferences"
+        android:title="Preferences"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/priprema_about"
+        android:title="About"
+        app:showAsAction="never" />
+
+</menu>
